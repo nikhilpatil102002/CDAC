@@ -1,0 +1,179 @@
+Assignment no.1
+
+problem Statemet:-
+1. Check Positive Number: 
+ Task: Create a flowchart to check whether a number is positive. 
+ Next Step: Write a Java program that checks if a predefined number is positive using an 
+if-else statement and prints the appropriate message. 
+
+2. Check Negative Number: 
+ Task: Create a flowchart to check whether a number is negative. 
+ Next Step: Write a Java program that checks if a predefined number is negative using an 
+if-else statement and displays the result. 
+
+Algorithm:
+1.Start 
+2.Enter the number 
+3.number is equal to 0 print (number is zero)
+4.number is greater than 0 print(positive)
+5.number is less than 0 then print(negative)
+6.stop
+
+program:
+
+class Student{
+    public static void main(String [] args){
+    int Num=5;
+    System.out.println("Enter the Number");
+    if (Num==0)
+	{
+    System.out.println("Number is zero");
+    }
+    else if (Num>0)
+	{
+    System.out.println("Number is Positive");
+    }
+    else
+    {
+    System.out.println("Number is Negative");
+    }
+  }
+}
+-----------------------------------------------------------------------------------
+3. Check Odd or Even Number: 
+
+Algorithm:
+1.Start 
+2.Enter the number 
+3.number is(Num%2==0)then print (Even)
+4.number is(odd)
+5.stop
+
+program:
+
+class Student {
+    public static void main(String args[]){
+        int Num=41;
+        if (Num%2==0){
+            System.out.println("Even Number");
+        }
+        else
+        {
+           System.out.println("odd Number"); 
+        }
+    }
+}
+------------------------------------------------------------------------------------
+
+4.Display Good Morning Message Based on Time: 
+ Task: Create a flowchart to display a "Good Morning" message based on a given time. 
+ Next Step: Write a Java program that displays a "Good Morning" message if the 
+predefined time is between 5 AM and 12 PM. Use an if statement to implement the logic.
+
+Algorithm:
+1.Start 
+2.Enter the time 
+3.time is between the (5 AM and 12 PM)then print (Good Morning)
+4.else print(Morning is Over)
+5.stop
+
+program:
+
+class Student {
+    public static void main(String []args){
+        int time=11;
+        if (time >=5  && time<12 )
+        {
+            System.out.println("Good Morning");
+        }
+        else
+        {
+            System.out.println("Morning is Over");
+        }
+    }
+}
+----------------------------------------------------------------------------------------
+5.Print Area of a Square: 
+ Task: Create a flowchart to calculate and print the area of a square. 
+ Next Step: Write a Java program that calculates the area of a square using the formula 
+area = side * side. Use a predefined side length. 
+
+Algorithm:
+
+1.Start 
+2.Enter the side of Square
+3.area is equal to(side*side)
+4.print(area)
+5.stop
+
+program:
+
+class Student {
+    public static void main(String []args){
+        int side=4;
+        int area;
+        area=side*side;
+        System.out.println("Area of Square is " +area);
+    }
+}
+-----------------------------------------------------------------------------------------
+6. Print Area of a Rectangle: 
+ Task: Create a flowchart to calculate and print the area of a rectangle. 
+ Next Step: Write a Java program that calculates the area of a rectangle using the formula 
+area = length * width. Use predefined values for length and width. 
+
+Algorithm:
+
+1.Start 
+2.Enter the length and width of rectangle
+3.area is equal to(length*width)
+4.print(area of rectangle)
+5.stop
+
+program:
+
+class Student {
+    public static void main(String []args){
+        int lenght=4;
+        int width=6;
+        int area;
+        area=lenght*width;
+        System.out.println("Area of Square is " +area);
+    }
+}
+
+7. Find the Largest of Three Numbers: 
+ Task: Create a flowchart to find the largest of three numbers. 
+ Next Step: Write a Java program that finds and prints the largest of three predefined 
+numbers using if-else statements.
+
+Algorithm:
+
+1.Start 
+2.Enter the three number a,b,c
+3.if(a>b && a>c)print (A is greater)
+4.else if(b>c && b>a)print (B is greater )
+5.else print(c is greater)
+6.stop
+
+program:
+
+class Student {
+    public static void main(String []args){
+        int a=4;
+        int b=64;
+        int c=24;
+        if(a>b && a>c)
+        {
+        System.out.println(" A is greater ");
+        }
+        else if(b>c && b>a)
+        {
+        System.out.println(" B is greater ");
+        }else {
+            System.out.println("C is greater");
+        }
+    }
+}
+
+=========================================================================================
